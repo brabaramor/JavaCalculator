@@ -1,31 +1,75 @@
 /* Passo 1: Importar a classe para ler entradas*/
 import java.util.Scanner;
 
-/* Passo 2: criar o método para o menu principal (calculadora)*/
+/* Passo 2: criar o mÃ©todo para o menu principal (calculadora)*/
 
 public class Calcular {
+
 	public static void main (String[] args){
-		Scanner in = new Scanner(System.in);
+		Scanner ler = new Scanner(System.in);
 		
-		System.out.println("Insira um número: ");
-		num1 = in.nextInt();
+		/*boolean continuar = true;
 
-		System.out.prinln("Insira outro número: ");
-		num2 = in.nextInt();		
+		while (continuar){
 
-		System.ou.println("Digite a operação desejada: ");
-		System.out.println("+");
-		System.out.println("-");
-		System.out.println("/");
-		System.out.println("*");
-		String operacao = in.nextInt();
+			System.out.print("Digite um nÃºmero (ou digite '0' para parar): ");
+			int numero = ler.nextInt();
+				
+			if (numero == 0) {
+				continuar = false;
+			} else {}
+
+		}*/
+
+			double adicao, subtracao, multiplicacao, divisao;
+
+			System.out.println("Digite a operaÃ§Ã£o desejada: ");
+			System.out.println("+");
+			System.out.println("-");
+			System.out.println("/");
+			System.out.println("*");
+			String operacao = ler.next();
 		
-		System.out.println("A opção selecionada foi " + "'"operação"'"); // aqui, eu ainda quero fazer aparecer o nome (em string) da opção 
+			System.out.println("A opÃ§Ã£oo selecionada foi " + operacao); // aqui, eu ainda quero fazer aparecer o nome (em string) da opï¿½ï¿½o 
 
-		while (operacao !=1 && operacao =!2 && operacao =! 3 && operacao != 4){
-			if (operacao == 1){
-			
-			} 
-		} System.out.println("Opção inexistente")
-	}
+			System.out.println("Insira um nÃºmero: ");
+			double num1 = ler.nextDouble();
+
+			System.out.println("Insira outro nÃºmero: ");
+			double num2 = ler.nextDouble();	
+
+			adicao = 0;
+			subtracao = 0;
+			multiplicacao = 0;
+			divisao = 0;
+
+			if (operacao == "+"){
+				
+				adicao = num1 + num2;
+
+				System.out.println("O resultado Ã©: " + adicao);
+
+			} else	if (operacao == "-"){
+				
+				subtracao = num1 - num2;
+
+				System.out.println("O resultado Ã©: " + subtracao);
+
+			} else if (operacao == "/"){
+				
+				divisao = num1 / num2;
+
+				System.out.println("O resultado Ã©: " + divisao);
+
+			} else if (operacao == "*"){
+				
+				multiplicacao = num1 * num2;
+
+				System.out.println("O resultado Ã©: " + multiplicacao);
+
+			} else {
+				System.out.println("A opÃ§Ã£o selecionada nÃ£o existe");
+			}
+		} 	
+		
 }
