@@ -24,7 +24,7 @@ To help me in the process, I'm reading articles and tutorials. I'll put the ABNT
   <li> [...] </li>
 </ol>
 
-<h2>Referenes</h2>
+<h2>References</h2>
 <br> HOW to Build a Simple Calculator in Java Using Netbeans – Step by Step with Screenshots. <strong>The Genius Blog</strong>, [s.l.], 4 dec. 2017. Available at: https://kindsonthegenius.com/blog/how-to-build-a-simple-calculator-in-java-using-netbeans-step-by-step-with-screenshots/. Access: 5 oct. 2023.
 <br>ROBSON. Calculadora Java: Criação de aplicações em Java utilizando Swing. <strong>DevMedia</strong>, [s.l.], 2012. Available at: https://www.devmedia.com.br/calculadora-java-criacao-de-aplicacoes-em-java-utilizando-swing/26007. Access: 5 oct. 2023.
 
